@@ -35,3 +35,7 @@ build
 
 # Vitest
 __screenshots__/
+
+.env
+.env.local
+.env.*.local
