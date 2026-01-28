@@ -1,9 +1,11 @@
-<script setup>
-// import { RouterLink, RouterView } from 'vue-router'
-</script>
-
 <template>
-  <h2></h2>
+  <Header />
+  <main class="min-h-screen bg-linear-to-b from-black/25 to-black/75 p-[25px]">
+    <router-view />
+  </main>
 </template>
 
-<style scoped></style>
+<script setup>
+import Header from '@/components/Header.vue'
+</script>
+
