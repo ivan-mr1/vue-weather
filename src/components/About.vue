@@ -7,7 +7,7 @@
 
       <div class="space-y-4 text-lg leading-relaxed opacity-90">
         <p>
-          <strong class="text-[#42b883]">Mini Weather</strong> is a lightweight web application
+          <strong class="text-[#42b883]">Mini Weather</strong> is a web application
           designed to provide instant weather updates.
         </p>
 
