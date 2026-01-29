@@ -3,7 +3,7 @@
     class="min-h-screen bg-cover bg-bottom transition-all duration-500"
     :class="isWarm ? 'bg-[url(@/assets/hot.webp)]' : 'bg-[url(@/assets/cold.webp)]'"
   >
-    <main class="min-h-screen bg-linear-to-b from-black/25 to-black/75 p-6">
+    <div class="min-h-screen bg-linear-to-b from-black/25 to-black/75 p-6">
       <div class="mb-8">
         <input
           type="text"
@@ -34,7 +34,7 @@
       </div>
 
       <div v-else-if="loading" class="text-center text-2xl text-white italic">Loading...</div>
-    </main>
+    </div>
   </div>
 </template>
 
